@@ -1,0 +1,159 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+/* HEADER */
+.textoHeader p {
+    text-align: center;
+    background-color: #393646;
+    color: #F4EEE0;
+    padding: 10px;
+}
+
+.contenedorLogo {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.contenedorLogo img {
+    height: 100px;
+}
+
+.contenedorLogo input {
+    width: 600px;
+    height: 33px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.contenedorLogo button {
+    background-color: #393646;
+    color: #F4EEE0;
+    padding: 7px;
+    border-radius: 10px;
+}
+
+.contenedorLogo i {
+    margin-right: 10px;
+}
+
+/* NAVBAR */
+.contenedorNav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 15px;
+    background-color: #393646;
+}
+
+.contenedorNav a {
+    text-decoration: none;
+    list-style: none;
+    color: #F4EEE0;
+}
+
+.contenedorNav img {
+    height: 100px;
+}
+
+/* BANNER */
+.bannerPrincipal {
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+}
+
+/* PRODUCTOS */
+.destacados h1 {
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+    border-bottom: 2px solid;
+}
+
+.contenedorProductos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    padding: 30px;
+}
+
+.productos {
+    max-width: 300px;
+    width: 290px;
+    text-align: center;
+    padding: 5px;
+    border-left: 2px solid #b1b5c1;
+    box-shadow: 5px 5px 8px #393646;
+    border-radius: 10px;
+}
+
+.productos img {
+    height: 200px;
+}
+
+.productos h4 {
+    font-size: 15px;
+    height: 30px;
+}
+
+.productos p {
+    font-size: 13px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.productos button {
+    background-color: #393646;
+    color: #F4EEE0;
+    padding: 5px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+/* LOGOS MARCAS */
+.logosMarcas {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.logosMarcas img {
+    height: 45px;
+}
+
+/* FOOTER */
+.contenedorFooter {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: start;
+    background-color: #393646;
+    color: #F4EEE0;
+    padding: 40px;
+}
+
+.contenedorFooter h4 {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.contenedorFooter p {
+    font-size: 15px;
+}
+
+.contenedorFooter .redes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.redes i {
+    font-size: 30px;
+}
