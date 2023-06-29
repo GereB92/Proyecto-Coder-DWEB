@@ -65,11 +65,7 @@
 }
 
 /* BANNER */
-.bannerPrincipal {
-    text-align: center;
-    padding: 10px;
-    margin: 0;
-}
+.bannerPrincipal {}
 
 /* PRODUCTOS */
 .destacados h1 {
