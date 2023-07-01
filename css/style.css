@@ -233,3 +233,11 @@ h3 {
     font-size: 14px;
     color: #393646;
 }
+
+/* PAGINA NOSOTROS */
+.nosotrosTexto {
+    width: 1500px;
+    margin-left: 210px;
+    text-align: center;
+    font-weight: bold;
+}
