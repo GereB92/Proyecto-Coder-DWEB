@@ -251,3 +251,35 @@ h3 {
     text-align: center;
     font-weight: bold;
 }
+
+
+@media (max-width: 576px) {
+    .textoHeader p {
+        font-size: 12px;
+    }
+
+    .contenedorLogo img {
+        width: auto;
+    }
+
+    .contenedorLogo input {
+        width: 170px;
+    }
+
+    .logosMarcas img {
+        width: auto;
+        padding: 5px;
+    }
+
+    .contenedorFooter {
+        justify-content: space-between;
+    }
+
+    .contenedorFooter h4 {
+        font-size: 10px;
+    }
+
+    .contenedorFooter p {
+        font-size: 8px;
+    }
+}
