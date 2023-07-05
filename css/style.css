@@ -253,6 +253,53 @@ h3 {
 }
 
 
+/* MEDIA QUERYS */
+@media (max-width: 992px) {
+    .contenedorLogo input {
+        width: 360px;
+    }
+
+    .logosMarcas img {
+        width: auto;
+        padding: 6px;
+    }
+
+    .contenedorFooter {
+        justify-content: space-between;
+    }
+
+    .contenedorFooter h4 {
+        font-size: 17px;
+    }
+
+    .contenedorFooter p {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 768px) {
+    .contenedorLogo input {
+        width: 200px;
+    }
+
+    .logosMarcas img {
+        width: auto;
+        padding: 15px;
+    }
+
+    .contenedorFooter {
+        justify-content: space-between;
+    }
+
+    .contenedorFooter h4 {
+        font-size: 13px;
+    }
+
+    .contenedorFooter p {
+        font-size: 10px;
+    }
+}
+
 @media (max-width: 576px) {
     .textoHeader p {
         font-size: 12px;
@@ -263,7 +310,15 @@ h3 {
     }
 
     .contenedorLogo input {
-        width: 170px;
+        width: 100px;
+    }
+
+    .contenedorLogo button {
+        font-size: 12px;
+    }
+
+    .contenedorNav li {
+        font-size: 13px;
     }
 
     .logosMarcas img {
