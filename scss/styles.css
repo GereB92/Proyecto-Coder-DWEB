@@ -1,0 +1,385 @@
+.contact_form {
+  width: 460px;
+  height: auto;
+  margin: 10px auto;
+  border-radius: 10px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  background-color: #fbfbfb;
+  padding-left: 30px;
+}
+
+input {
+  background-color: #fbfbfb;
+  width: 408px;
+  height: 40px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #393646;
+  margin-top: 10px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+
+textarea {
+  background-color: #fbfbfb;
+  width: 405px;
+  height: 150px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  margin-top: 10px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  padding-top: 15px;
+}
+
+label {
+  display: block;
+  float: center;
+}
+
+form button {
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  background-color: #393646;
+  border-style: solid;
+  border-radius: 10px;
+  width: 420px;
+  cursor: pointer;
+  box-shadow: 6px 6px 12px #393646, -6px -6px 12px #F4EEE0;
+}
+
+button p {
+  color: #fff;
+}
+
+.aviso {
+  font-size: 13px;
+  color: #393646;
+}
+
+h1 {
+  font-size: 39px;
+  text-align: letf;
+  padding-bottom: 20px;
+}
+
+h3 {
+  font-size: 16px;
+  padding-bottom: 30px;
+  color: #393646;
+}
+
+.forumulario p {
+  font-size: 14px;
+  color: #393646;
+}
+
+.nosotrosTexto {
+  text-align: start;
+  padding: 50px;
+  font-weight: bold;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Noto Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+
+/* HEADER */
+.textoHeader p {
+  text-align: center;
+  background-color: #393646;
+  color: #F4EEE0;
+  padding: 10px;
+}
+
+.contenedorLogo {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+.contenedorLogo img {
+  height: 100px;
+}
+.contenedorLogo input {
+  width: 600px;
+  height: 33px;
+  font-weight: bold;
+  border-radius: 10px;
+}
+.contenedorLogo button {
+  background-color: #393646;
+  color: #F4EEE0;
+  padding: 7px;
+  border-radius: 10px;
+}
+.contenedorLogo i {
+  margin-right: 10px;
+}
+
+/* NAVBAR */
+.contenedorNav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 15px;
+  background-color: #393646;
+}
+.contenedorNav a {
+  text-decoration: none;
+  list-style: none;
+  color: #F4EEE0;
+}
+.contenedorNav img {
+  height: 100px;
+}
+
+/* PRODUCTOS */
+.destacados h1 {
+  font-size: 20px;
+  margin-top: 20px;
+  font-weight: bold;
+  border-bottom: 2px solid;
+}
+
+.contenedorProductos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  padding: 30px;
+}
+
+.productos {
+  max-width: 300px;
+  width: 290px;
+  text-align: center;
+  padding: 5px;
+  border-left: 2px solid #b1b5c1;
+  box-shadow: 5px 5px 8px #393646;
+  border-radius: 10px;
+}
+.productos img {
+  height: 200px;
+}
+.productos h4 {
+  font-size: 15px;
+  height: 30px;
+}
+.productos p {
+  font-size: 13px;
+  font-weight: bold;
+  padding: 10px;
+}
+.productos button {
+  background-color: #393646;
+  color: #F4EEE0;
+  padding: 5px;
+  font-size: 12px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+.productos button:hover {
+  background-color: #3ea161;
+  color: #393646;
+  font-weight: bold;
+}
+
+/* LOGOS MARCAS */
+.logosMarcas {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+}
+.logosMarcas img {
+  height: 45px;
+}
+
+/* FOOTER */
+.contenedorFooter {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: start;
+  background-color: #393646;
+  color: #F4EEE0;
+  padding: 40px;
+}
+.contenedorFooter h4 {
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+}
+.contenedorFooter p {
+  font-size: 12px;
+  text-align: center;
+}
+.contenedorFooter .redes {
+  display: flex;
+  justify-content: space-evenly;
+}
+.contenedorFooter .redes i {
+  font-size: 23px;
+}
+
+@media (max-width: 1400px) {
+  .textoHeader p {
+    font-size: 30px;
+  }
+  .textoHeader .contenedorLogo input {
+    width: 550px;
+    margin-right: 15px;
+  }
+  .contenedorNav {
+    font-size: 18px;
+  }
+  .logosMarcas {
+    justify-content: space-between;
+  }
+  .logosMarcas img {
+    padding: 5px;
+  }
+  .contenedorFooter h4 {
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+  }
+  .contenedorFooter p {
+    font-size: 13px;
+    text-align: center;
+    padding: 2px;
+  }
+  .contenedorFooter .redes {
+    justify-content: space-evenly;
+  }
+}
+@media (max-width: 1200px) {
+  .textoHeader p {
+    font-size: 25px;
+  }
+  .textoHeader .contenedorLogo input {
+    width: 450px;
+    margin-right: 15px;
+  }
+  .contenedorNav {
+    font-size: 18px;
+  }
+  .logosMarcas {
+    justify-content: space-between;
+  }
+  .logosMarcas img {
+    padding: 5px;
+  }
+  .contenedorFooter h4 {
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+  }
+  .contenedorFooter p {
+    font-size: 13px;
+    text-align: center;
+    padding: 2px;
+  }
+  .contenedorFooter .redes {
+    justify-content: space-evenly;
+  }
+}
+@media (max-width: 992px) {
+  .textoHeader p {
+    font-size: 25px;
+  }
+  .textoHeader .contenedorLogo input {
+    width: 350px;
+    margin-right: 15px;
+  }
+  .contenedorNav {
+    font-size: 18px;
+  }
+  .logosMarcas {
+    justify-content: space-between;
+  }
+  .logosMarcas img {
+    padding: 5px;
+  }
+  .contenedorFooter h4 {
+    font-size: 16px;
+    text-align: center;
+    padding: 20px;
+  }
+  .contenedorFooter p {
+    font-size: 12px;
+    text-align: center;
+    padding: 2px;
+  }
+  .contenedorFooter .redes {
+    justify-content: space-evenly;
+  }
+}
+@media (max-width: 768px) {
+  .textoHeader p {
+    font-size: 20px;
+  }
+  .textoHeader .contenedorLogo input {
+    width: 200px;
+    margin-right: 15px;
+  }
+  .logosMarcas {
+    justify-content: space-around;
+  }
+  .logosMarcas img {
+    padding: 7px;
+  }
+  .contenedorFooter h4 {
+    font-size: 16px;
+    text-align: center;
+    padding: 20px;
+  }
+  .contenedorFooter p {
+    font-size: 12px;
+    text-align: center;
+    padding: 2px;
+  }
+  .contenedorFooter .redes {
+    justify-content: space-evenly;
+  }
+}
+@media (max-width: 576px) {
+  .textoHeader p {
+    font-size: 13px;
+  }
+  .textoHeader .contenedorLogo input {
+    width: 100px;
+    margin-right: 15px;
+  }
+  .contenedorNav {
+    font-size: 14px;
+  }
+  .logosMarcas {
+    justify-content: space-between;
+  }
+  .logosMarcas img {
+    padding: 4px;
+  }
+  .contenedorFooter h4 {
+    font-size: 16px;
+    text-align: center;
+    padding: 20px;
+  }
+  .contenedorFooter p {
+    font-size: 12px;
+    text-align: center;
+    padding: 2px;
+  }
+  .contenedorFooter .redes {
+    justify-content: space-evenly;
+  }
+}/*# sourceMappingURL=styles.css.map */
