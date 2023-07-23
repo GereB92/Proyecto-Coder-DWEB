@@ -1,134 +1,29 @@
-@media (max-width: 1400px) {
-    .textoHeader {
-        p {
-            font-size: 30px;
-        }
-
-        .contenedorLogo {
-            input {
-                width: 550px;
-                margin-right: 15px;
-            }
-        }
-    }
-
-    .contenedorNav {
-        font-size: 18px;
-    }
-
-    .logosMarcas {
-        justify-content: space-between;
-
-        img {
-            padding: 5px;
-        }
-    }
-
-    .contenedorFooter {
-        h4 {
-            font-size: 20px;
-            text-align: center;
-            padding: 10px;
-        }
-
-        p {
-            font-size: 13px;
-            text-align: center;
-            padding: 2px;
-        }
-
-        .redes {
-            justify-content: space-evenly;
-        }
-    }
-}
-
 @media (max-width: 1200px) {
-    .textoHeader {
-        p {
-            font-size: 25px;
-        }
-
-        .contenedorLogo {
-            input {
-                width: 450px;
-                margin-right: 15px;
-            }
-        }
-    }
-
-    .contenedorNav {
-        font-size: 18px;
-    }
-
-    .logosMarcas {
-        justify-content: space-between;
-
-        img {
-            padding: 5px;
-        }
-    }
-
-    .contenedorFooter {
-        h4 {
-            font-size: 20px;
-            text-align: center;
-            padding: 10px;
-        }
-
-        p {
-            font-size: 13px;
-            text-align: center;
-            padding: 2px;
-        }
-
-        .redes {
-            justify-content: space-evenly;
-        }
+    .contenedorLogo {
+        margin-top: 100px;
     }
 }
 
 @media (max-width: 992px) {
     .textoHeader {
         p {
-            font-size: 25px;
-        }
-
-        .contenedorLogo {
-            input {
-                width: 350px;
-                margin-right: 15px;
-            }
+            font-size: 14px;
         }
     }
 
-    .contenedorNav {
-        font-size: 18px;
-    }
-
-    .logosMarcas {
-        justify-content: space-between;
+    .contenedorLogo {
+        margin-top: 100px;
 
         img {
-            padding: 5px;
-        }
-    }
-
-    .contenedorFooter {
-        h4 {
-            font-size: 16px;
-            text-align: center;
-            padding: 20px;
+            height: 120px;
         }
 
-        p {
-            font-size: 12px;
-            text-align: center;
-            padding: 2px;
+        input {
+            width: 500px;
         }
 
-        .redes {
-            justify-content: space-evenly;
+        button {
+            font-size: 14px;
         }
     }
 }
@@ -136,41 +31,23 @@
 @media (max-width: 768px) {
     .textoHeader {
         p {
-            font-size: 20px;
-        }
-
-        .contenedorLogo {
-            input {
-                width: 200px;
-                margin-right: 15px;
-            }
+            font-size: 14px;
         }
     }
 
-
-    .logosMarcas {
-        justify-content: space-around;
+    .contenedorLogo {
+        margin-top: 100px;
 
         img {
-            padding: 7px;
-        }
-    }
-
-    .contenedorFooter {
-        h4 {
-            font-size: 16px;
-            text-align: center;
-            padding: 20px;
+            height: 100px;
         }
 
-        p {
-            font-size: 12px;
-            text-align: center;
-            padding: 2px;
+        input {
+            width: 300px;
         }
 
-        .redes {
-            justify-content: space-evenly;
+        button {
+            font-size: 14px;
         }
     }
 }
@@ -178,44 +55,65 @@
 @media (max-width: 576px) {
     .textoHeader {
         p {
-            font-size: 13px;
+            margin: 0;
+            font-size: 12px;
+            padding: 3px;
         }
 
-        .contenedorLogo {
-            input {
-                width: 100px;
-                margin-right: 15px;
-            }
+        i {
+            font-size: 12px;
+        }
+
+        button {
+            font-size: 12px;
+        }
+    }
+
+    .contenedorLogo {
+        margin-top: 70px;
+
+        img {
+            height: 90px;
+        }
+
+        input {
+            width: 110px;
+        }
+
+        button {
+            font-size: 12px;
+        }
+
+        i {
+            margin-right: 10px;
         }
     }
 
     .contenedorNav {
-        font-size: 14px;
-    }
-
-    .logosMarcas {
-        justify-content: space-between;
-
-        img {
-            padding: 4px;
+        li {
+            font-size: 12px;
         }
     }
 
     .contenedorFooter {
+        padding: 40px;
+
         h4 {
-            font-size: 16px;
-            text-align: center;
-            padding: 20px;
+            font-size: 15px;
+            padding: 12px;
         }
 
         p {
             font-size: 12px;
-            text-align: center;
-            padding: 2px;
+
         }
 
         .redes {
-            justify-content: space-evenly;
+
+            i {
+                font-size: 16px;
+            }
+
         }
     }
 }

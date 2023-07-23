@@ -207,7 +207,7 @@ h3 {
 /* LOGOS MARCAS */
 .logosMarcas {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 30px;
 }
 .logosMarcas img {
@@ -239,155 +239,86 @@ h3 {
   font-size: 30px;
 }
 
-@media (max-width: 1400px) {
-  .textoHeader p {
-    font-size: 30px;
-  }
-  .textoHeader .contenedorLogo input {
-    width: 550px;
-    margin-right: 15px;
-  }
-  .contenedorNav {
-    font-size: 18px;
-  }
-  .logosMarcas {
-    justify-content: space-between;
-  }
-  .logosMarcas img {
-    padding: 5px;
-  }
-  .contenedorFooter h4 {
-    font-size: 20px;
-    text-align: center;
-    padding: 10px;
-  }
-  .contenedorFooter p {
-    font-size: 13px;
-    text-align: center;
-    padding: 2px;
-  }
-  .contenedorFooter .redes {
-    justify-content: space-evenly;
-  }
-}
 @media (max-width: 1200px) {
-  .textoHeader p {
-    font-size: 25px;
-  }
-  .textoHeader .contenedorLogo input {
-    width: 450px;
-    margin-right: 15px;
-  }
-  .contenedorNav {
-    font-size: 18px;
-  }
-  .logosMarcas {
-    justify-content: space-between;
-  }
-  .logosMarcas img {
-    padding: 5px;
-  }
-  .contenedorFooter h4 {
-    font-size: 20px;
-    text-align: center;
-    padding: 10px;
-  }
-  .contenedorFooter p {
-    font-size: 13px;
-    text-align: center;
-    padding: 2px;
-  }
-  .contenedorFooter .redes {
-    justify-content: space-evenly;
+  .contenedorLogo {
+    margin-top: 100px;
   }
 }
 @media (max-width: 992px) {
   .textoHeader p {
-    font-size: 25px;
+    font-size: 14px;
   }
-  .textoHeader .contenedorLogo input {
-    width: 350px;
-    margin-right: 15px;
+  .contenedorLogo {
+    margin-top: 100px;
   }
-  .contenedorNav {
-    font-size: 18px;
+  .contenedorLogo img {
+    height: 120px;
   }
-  .logosMarcas {
-    justify-content: space-between;
+  .contenedorLogo input {
+    width: 500px;
   }
-  .logosMarcas img {
-    padding: 5px;
-  }
-  .contenedorFooter h4 {
-    font-size: 16px;
-    text-align: center;
-    padding: 20px;
-  }
-  .contenedorFooter p {
-    font-size: 12px;
-    text-align: center;
-    padding: 2px;
-  }
-  .contenedorFooter .redes {
-    justify-content: space-evenly;
+  .contenedorLogo button {
+    font-size: 14px;
   }
 }
 @media (max-width: 768px) {
   .textoHeader p {
-    font-size: 20px;
+    font-size: 14px;
   }
-  .textoHeader .contenedorLogo input {
-    width: 200px;
-    margin-right: 15px;
+  .contenedorLogo {
+    margin-top: 100px;
   }
-  .logosMarcas {
-    justify-content: space-around;
+  .contenedorLogo img {
+    height: 100px;
   }
-  .logosMarcas img {
-    padding: 7px;
+  .contenedorLogo input {
+    width: 300px;
   }
-  .contenedorFooter h4 {
-    font-size: 16px;
-    text-align: center;
-    padding: 20px;
-  }
-  .contenedorFooter p {
-    font-size: 12px;
-    text-align: center;
-    padding: 2px;
-  }
-  .contenedorFooter .redes {
-    justify-content: space-evenly;
+  .contenedorLogo button {
+    font-size: 14px;
   }
 }
 @media (max-width: 576px) {
   .textoHeader p {
-    font-size: 13px;
+    margin: 0;
+    font-size: 12px;
+    padding: 3px;
   }
-  .textoHeader .contenedorLogo input {
-    width: 100px;
-    margin-right: 15px;
+  .textoHeader i {
+    font-size: 12px;
   }
-  .contenedorNav {
-    font-size: 14px;
+  .textoHeader button {
+    font-size: 12px;
   }
-  .logosMarcas {
-    justify-content: space-between;
+  .contenedorLogo {
+    margin-top: 70px;
   }
-  .logosMarcas img {
-    padding: 4px;
+  .contenedorLogo img {
+    height: 90px;
+  }
+  .contenedorLogo input {
+    width: 110px;
+  }
+  .contenedorLogo button {
+    font-size: 12px;
+  }
+  .contenedorLogo i {
+    margin-right: 10px;
+  }
+  .contenedorNav li {
+    font-size: 12px;
+  }
+  .contenedorFooter {
+    padding: 40px;
   }
   .contenedorFooter h4 {
-    font-size: 16px;
-    text-align: center;
-    padding: 20px;
+    font-size: 15px;
+    padding: 12px;
   }
   .contenedorFooter p {
     font-size: 12px;
-    text-align: center;
-    padding: 2px;
   }
-  .contenedorFooter .redes {
-    justify-content: space-evenly;
+  .contenedorFooter .redes i {
+    font-size: 16px;
   }
 }/*# sourceMappingURL=styles.css.map */
