@@ -1,29 +1,201 @@
-@media (max-width: 1200px) {
+@media (max-width: 1400px) {
+    .textoHeader {
+        p {
+            font-size: 17px;
+            padding: 5px;
+            text-align: center;
+        }
+
+        i {
+            font-size: 14px;
+        }
+    }
+
     .contenedorLogo {
-        margin-top: 100px;
+        img {
+            height: 170px;
+        }
+
+        input {
+            width: 690px;
+            height: 40px;
+        }
+
+        button {
+            font-size: 16px;
+        }
+
+        i {
+            margin-right: 11px;
+        }
+    }
+
+    .contenedorNav {
+        li {
+            font-size: 16px;
+        }
+    }
+
+    .destacados {
+        h1 {
+            font-size: 22px;
+        }
+    }
+
+    .contenedorFooter {
+        padding: 40px;
+
+        h4 {
+            font-size: 18px;
+            padding: 12px;
+        }
+
+        p {
+            font-size: 12px;
+
+        }
+
+        .redes {
+
+            i {
+                font-size: 20px;
+            }
+
+        }
+    }
+}
+
+
+@media (max-width: 1200px) {
+    .textoHeader {
+        p {
+            font-size: 16px;
+            padding: 1px;
+            text-align: center;
+        }
+
+        i {
+            font-size: 15px;
+        }
+    }
+
+    .contenedorLogo {
+        img {
+            height: 140px;
+        }
+
+        input {
+            width: 490px;
+            height: 40px;
+        }
+
+        button {
+            font-size: 16px;
+        }
+
+        i {
+            margin-right: 11px;
+        }
+    }
+
+    .contenedorNav {
+        li {
+            font-size: 16px;
+        }
+    }
+
+    .destacados {
+        h1 {
+            font-size: 20px;
+        }
+    }
+
+    .contenedorFooter {
+        padding: 40px;
+
+        h4 {
+            font-size: 18px;
+            padding: 12px;
+        }
+
+        p {
+            font-size: 12px;
+
+        }
+
+        .redes {
+
+            i {
+                font-size: 20px;
+            }
+
+        }
     }
 }
 
 @media (max-width: 992px) {
     .textoHeader {
         p {
-            font-size: 14px;
+            font-size: 16px;
+            padding: 1px;
+            text-align: center;
+        }
+
+        i {
+            font-size: 15px;
         }
     }
 
     .contenedorLogo {
-        margin-top: 100px;
-
         img {
-            height: 120px;
+            height: 130px;
         }
 
         input {
-            width: 500px;
+            width: 390px;
+            height: 40px;
         }
 
         button {
-            font-size: 14px;
+            font-size: 16px;
+        }
+
+        i {
+            margin-right: 11px;
+        }
+    }
+
+    .contenedorNav {
+        li {
+            font-size: 16px;
+        }
+    }
+
+    .destacados {
+        h1 {
+            font-size: 20px;
+        }
+    }
+
+    .contenedorFooter {
+        padding: 40px;
+
+        h4 {
+            font-size: 18px;
+            padding: 12px;
+        }
+
+        p {
+            font-size: 12px;
+
+        }
+
+        .redes {
+
+            i {
+                font-size: 20px;
+            }
+
         }
     }
 }
@@ -33,55 +205,24 @@
         p {
             font-size: 14px;
         }
-    }
-
-    .contenedorLogo {
-        margin-top: 100px;
-
-        img {
-            height: 100px;
-        }
-
-        input {
-            width: 300px;
-        }
-
-        button {
-            font-size: 14px;
-        }
-    }
-}
-
-@media (max-width: 576px) {
-    .textoHeader {
-        p {
-            margin: 0;
-            font-size: 12px;
-            padding: 3px;
-        }
 
         i {
             font-size: 12px;
         }
-
-        button {
-            font-size: 12px;
-        }
     }
 
     .contenedorLogo {
-        margin-top: 70px;
-
         img {
-            height: 90px;
+            height: 110px;
         }
 
         input {
-            width: 110px;
+            width: 250px;
+            height: 40px;
         }
 
         button {
-            font-size: 12px;
+            font-size: 13px;
         }
 
         i {
@@ -91,7 +232,78 @@
 
     .contenedorNav {
         li {
+            font-size: 14px;
+        }
+    }
+
+    .destacados {
+        h1 {
+            font-size: 18px;
+        }
+    }
+
+    .contenedorFooter {
+        padding: 40px;
+
+        h4 {
+            font-size: 18px;
+            padding: 12px;
+        }
+
+        p {
             font-size: 12px;
+
+        }
+
+        .redes {
+
+            i {
+                font-size: 20px;
+            }
+
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .textoHeader {
+        p {
+            font-size: 12px;
+        }
+
+        i {
+            font-size: 12px;
+        }
+    }
+
+    .contenedorLogo {
+        img {
+            height: 80px;
+        }
+
+        input {
+            width: 155px;
+            height: 30px;
+        }
+
+        button {
+            font-size: 12px;
+        }
+
+        i {
+            margin-right: 9px;
+        }
+    }
+
+    .contenedorNav {
+        li {
+            font-size: 12px;
+        }
+    }
+
+    .destacados {
+        h1 {
+            font-size: 18px;
         }
     }
 
@@ -104,7 +316,7 @@
         }
 
         p {
-            font-size: 12px;
+            font-size: 11px;
 
         }
 

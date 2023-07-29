@@ -16,7 +16,6 @@
 /* HEADER */
 .textoHeader {
     display: flex;
-    justify-content: space-around;
     background-color: #393646;
 
     p {
@@ -33,9 +32,8 @@
 
 .contenedorLogo {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
-    text-align: center;
     margin-top: 50px;
 
     img {
@@ -43,7 +41,7 @@
     }
 
     input {
-        width: 600px;
+        width: 700px;
         height: 43px;
         font-weight: bold;
         border-radius: 10px;
@@ -176,7 +174,7 @@
 
     .redes {
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-around;
 
         i {
             font-size: 30px;

@@ -33,6 +33,7 @@ textarea {
   padding-left: 10px;
   margin-bottom: 20px;
   padding-top: 15px;
+  resize: none;
 }
 
 label {
@@ -97,7 +98,6 @@ h3 {
 /* HEADER */
 .textoHeader {
   display: flex;
-  justify-content: space-around;
   background-color: #393646;
 }
 .textoHeader p {
@@ -112,16 +112,15 @@ h3 {
 
 .contenedorLogo {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
-  text-align: center;
   margin-top: 50px;
 }
 .contenedorLogo img {
   height: 160px;
 }
 .contenedorLogo input {
-  width: 600px;
+  width: 700px;
   height: 43px;
   font-weight: bold;
   border-radius: 10px;
@@ -233,80 +232,203 @@ h3 {
 }
 .contenedorFooter .redes {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 .contenedorFooter .redes i {
   font-size: 30px;
 }
 
+@media (max-width: 1400px) {
+  .textoHeader p {
+    font-size: 17px;
+    padding: 5px;
+    text-align: center;
+  }
+  .textoHeader i {
+    font-size: 14px;
+  }
+  .contenedorLogo img {
+    height: 170px;
+  }
+  .contenedorLogo input {
+    width: 690px;
+    height: 40px;
+  }
+  .contenedorLogo button {
+    font-size: 16px;
+  }
+  .contenedorLogo i {
+    margin-right: 11px;
+  }
+  .contenedorNav li {
+    font-size: 16px;
+  }
+  .destacados h1 {
+    font-size: 22px;
+  }
+  .contenedorFooter {
+    padding: 40px;
+  }
+  .contenedorFooter h4 {
+    font-size: 18px;
+    padding: 12px;
+  }
+  .contenedorFooter p {
+    font-size: 12px;
+  }
+  .contenedorFooter .redes i {
+    font-size: 20px;
+  }
+}
 @media (max-width: 1200px) {
-  .contenedorLogo {
-    margin-top: 100px;
+  .textoHeader p {
+    font-size: 16px;
+    padding: 1px;
+    text-align: center;
+  }
+  .textoHeader i {
+    font-size: 15px;
+  }
+  .contenedorLogo img {
+    height: 140px;
+  }
+  .contenedorLogo input {
+    width: 490px;
+    height: 40px;
+  }
+  .contenedorLogo button {
+    font-size: 16px;
+  }
+  .contenedorLogo i {
+    margin-right: 11px;
+  }
+  .contenedorNav li {
+    font-size: 16px;
+  }
+  .destacados h1 {
+    font-size: 20px;
+  }
+  .contenedorFooter {
+    padding: 40px;
+  }
+  .contenedorFooter h4 {
+    font-size: 18px;
+    padding: 12px;
+  }
+  .contenedorFooter p {
+    font-size: 12px;
+  }
+  .contenedorFooter .redes i {
+    font-size: 20px;
   }
 }
 @media (max-width: 992px) {
   .textoHeader p {
-    font-size: 14px;
+    font-size: 16px;
+    padding: 1px;
+    text-align: center;
   }
-  .contenedorLogo {
-    margin-top: 100px;
+  .textoHeader i {
+    font-size: 15px;
   }
   .contenedorLogo img {
-    height: 120px;
+    height: 130px;
   }
   .contenedorLogo input {
-    width: 500px;
+    width: 390px;
+    height: 40px;
   }
   .contenedorLogo button {
-    font-size: 14px;
+    font-size: 16px;
+  }
+  .contenedorLogo i {
+    margin-right: 11px;
+  }
+  .contenedorNav li {
+    font-size: 16px;
+  }
+  .destacados h1 {
+    font-size: 20px;
+  }
+  .contenedorFooter {
+    padding: 40px;
+  }
+  .contenedorFooter h4 {
+    font-size: 18px;
+    padding: 12px;
+  }
+  .contenedorFooter p {
+    font-size: 12px;
+  }
+  .contenedorFooter .redes i {
+    font-size: 20px;
   }
 }
 @media (max-width: 768px) {
   .textoHeader p {
     font-size: 14px;
   }
-  .contenedorLogo {
-    margin-top: 100px;
-  }
-  .contenedorLogo img {
-    height: 100px;
-  }
-  .contenedorLogo input {
-    width: 300px;
-  }
-  .contenedorLogo button {
-    font-size: 14px;
-  }
-}
-@media (max-width: 576px) {
-  .textoHeader p {
-    margin: 0;
-    font-size: 12px;
-    padding: 3px;
-  }
   .textoHeader i {
     font-size: 12px;
   }
-  .textoHeader button {
-    font-size: 12px;
-  }
-  .contenedorLogo {
-    margin-top: 70px;
-  }
   .contenedorLogo img {
-    height: 90px;
+    height: 110px;
   }
   .contenedorLogo input {
-    width: 110px;
+    width: 250px;
+    height: 40px;
   }
   .contenedorLogo button {
-    font-size: 12px;
+    font-size: 13px;
   }
   .contenedorLogo i {
     margin-right: 10px;
   }
   .contenedorNav li {
+    font-size: 14px;
+  }
+  .destacados h1 {
+    font-size: 18px;
+  }
+  .contenedorFooter {
+    padding: 40px;
+  }
+  .contenedorFooter h4 {
+    font-size: 18px;
+    padding: 12px;
+  }
+  .contenedorFooter p {
     font-size: 12px;
+  }
+  .contenedorFooter .redes i {
+    font-size: 20px;
+  }
+}
+@media (max-width: 576px) {
+  .textoHeader p {
+    font-size: 12px;
+  }
+  .textoHeader i {
+    font-size: 12px;
+  }
+  .contenedorLogo img {
+    height: 80px;
+  }
+  .contenedorLogo input {
+    width: 155px;
+    height: 30px;
+  }
+  .contenedorLogo button {
+    font-size: 12px;
+  }
+  .contenedorLogo i {
+    margin-right: 9px;
+  }
+  .contenedorNav li {
+    font-size: 12px;
+  }
+  .destacados h1 {
+    font-size: 18px;
   }
   .contenedorFooter {
     padding: 40px;
@@ -316,7 +438,7 @@ h3 {
     padding: 12px;
   }
   .contenedorFooter p {
-    font-size: 12px;
+    font-size: 11px;
   }
   .contenedorFooter .redes i {
     font-size: 16px;
