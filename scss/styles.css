@@ -443,4 +443,22 @@ h3 {
   .contenedorFooter .redes i {
     font-size: 16px;
   }
+  .formulario h1 {
+    font-size: 18px;
+  }
+  .formulario h3 {
+    font-size: 14px;
+  }
+  .formulario p {
+    font-size: 13px;
+  }
+  .formulario p input {
+    width: 350px;
+  }
+  .formulario p textarea {
+    width: 350px;
+  }
+  .formulario button {
+    width: 350px;
+  }
 }/*# sourceMappingURL=styles.css.map */

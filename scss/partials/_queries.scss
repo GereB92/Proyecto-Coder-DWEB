@@ -328,4 +328,30 @@
 
         }
     }
+
+    .formulario {
+        h1 {
+            font-size: 18px;
+        }
+
+        h3 {
+            font-size: 14px;
+        }
+
+        p {
+            font-size: 13px;
+
+            input {
+                width: 350px;
+            }
+
+            textarea {
+                width: 350px;
+            }
+        }
+
+        button {
+            width: 350px;
+        }
+    }
 }
