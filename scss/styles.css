@@ -217,7 +217,7 @@ h3 {
 /* FOOTER */
 .contenedorFooter {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   background-color: #393646;
   color: #F4EEE0;
   padding: 40px;
