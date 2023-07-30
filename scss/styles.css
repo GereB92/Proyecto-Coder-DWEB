@@ -210,7 +210,8 @@ h3 {
   padding: 30px;
 }
 .logosMarcas img {
-  height: 45px;
+  width: 100px;
+  height: 50px;
 }
 
 /* FOOTER */
